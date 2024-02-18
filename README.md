@@ -1,8 +1,17 @@
-# React + Vite
+# QuickLearn (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+QuickLearn is a videoLibrary Application to learn Javascript and React concepts..
 
-Currently, two official plugins are available:
+## Requirements
+- Node JS: [installation link](https://nodejs.org/en/download)
+- NPM/Yarn
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Running the server in new machine
+- To Install all dependecies present in package.json
+```
+npm install
+```
+- To start the project in the new server
+```
+npm run dev
+```
