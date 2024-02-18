@@ -5,7 +5,15 @@ body{
   font-weight: 400;
   font-style: normal;
 }
-@media screen and (max-width: 768px) { 
+.youtube-container iframe {
+  width: 500px; 
+  height: 300px;
+}
+.youtube-container{
+margin: 0 5%;
+}
+
+@media screen and (max-width: 640px) { 
   .youtube-container iframe {
     width: 100%; 
   }

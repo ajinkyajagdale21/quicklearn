@@ -1,4 +1,3 @@
-import { v4 as uuidv4 } from 'uuid';
 import ep1 from './assets/cb.jpg'
 import ep2 from './assets/ep2.jpg'
 import ep3 from './assets/ep3.jpg'
@@ -10,7 +9,7 @@ import webDev from './assets/wds.jpg'
 
 export const data = [
     {
-        id: 1,
+        id: '1',
         videoName:"Callback Hell | Ep 01 Season 02 - Namaste JavaScript",
         videoCreater:"Akshay saini",
         videoURL:"yEKtJGha3yM",
@@ -18,7 +17,7 @@ export const data = [
         channelImg:akshayImg
     },
     {
-        id: 2,
+        id: '2',
         videoName:"Promises | Ep 02 Season 02 - Namaste JavaScript",
         videoCreater:"Akshay saini",
         videoURL:"ap-6PPAuK1Y",
@@ -26,7 +25,7 @@ export const data = [
         channelImg:akshayImg
     },
     {
-        id: 3,
+        id: '3',
         videoName:"async await | Namaste JavaScript - Season 02 - Ep 04",
         videoCreater:"Akshay saini",
         videoURL:"6nv3qy3oNkc",
@@ -34,7 +33,7 @@ export const data = [
         channelImg:akshayImg
     },
     {
-        id: 4,
+        id: '4',
         videoName:"Learn useState In 15 Minutes - React Hooks Explained",
         videoCreater:"Web dev Simplified",
         videoURL:"O6P86uwfdR0",
@@ -42,7 +41,7 @@ export const data = [
         channelImg:webDev
     },
     {
-        id: 5,
+        id: '5',
         videoName:"Learn useEffect In 13 Minutes",
         videoCreater:"Web dev Simplified",
         videoURL:"0ZJgIjIuY7U",
@@ -50,7 +49,7 @@ export const data = [
         channelImg:webDev
     },
     {
-        id: 6,
+        id: '6',
         videoName:"Learn useRef in 11 Minutes",
         videoCreater:"Web dev Simplified",
         videoURL:"t2ypzz6gJm0",
